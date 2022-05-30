@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>next/books</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <nav class="sidenav" id="sidenav">
+      <a href="#" class="closebtn" onclick="closenav()">&times</a>
+      <a href="loans.html">Mine lån</a>
+      <a href="books.html">Bøger</a>
+      <a href="#">Elektronik</a>
+      <a href="#">Mere</a>
+    </nav>
+<header>
+<img src="menu_icon.png" alt="menu" id="menuicon" onclick="opennav()">
+<img src="nextlogo.jpg" alt="next logo" id="nextlogo">
+<img src="profile_icon.png" alt="profil icon" id="profileicon">
+<p id="loginp"></p>
+<span class="cart"></span>
+</header>
+<div class="bookdisplay">
+  <br><br>
+  <div class="bookdiv" id="Basiskemic">
+    <img src="Basiskemic.jpg" alt="basiskemi c"><br>
+    <label for="">Basiskemi C</label><br>
+    <p>Forfattere: H. Mygind, O. Vesterlund Nielsen, V. Axelsen</p><br>
+    <p>Antal:</p>
+    <p id="book1number" >5</p>
+    <button type="button" id="book1" class="loanbtn"value="Basiskemi c" onclick="loan(event)">lån</button>
+    <p id=Basiskemicloaned></p>
+  </div>
+  <div class="bookdiv" id="Orbit B HTX">
+    <img src="Basiskemic.jpg" alt="basiskemi c"><br>
+    <label for="">Orbit B HTX </label><br>
+    <p>Forfattere: H. Mygind, O. Vesterlund Nielsen, V. Axelsen</p><br>
+    <p>Antal:</p>
+    <p id=book2number>4</p>
+    <button type="button" id="book2" onclick="loan(event)" value="Orbit B">lån</button>
+  </div>
+  <div class="bookdiv" id="Mat B HTX">
+    <img src="Basiskemic.jpg" alt="basiskemi c"><br>
+    <label for="">Mat B HTX</label><br>
+    <p>Forfattere: H. Mygind, O. Vesterlund Nielsen, V. Axelsen</p><br>
+    <p>Antal:</p>
+    <p id=book3number>7</p>
+    <button type="button" id="book3" onclick="loan(event)" value="Mat B HTX">lån</button>
+  </div>
+  <div class="bookdiv" id="Informatik C">
+    <img src="Basiskemic.jpg" alt="basiskemi c"><br>
+    <label for="">Informatik C</label><br>
+    <p>Forfattere: H. Mygind, O. Vesterlund Nielsen, V. Axelsen</p><br>
+    <p>Antal:</p>
+    <p id=book4number>3</p>
+    <button type="button" id="book4" onclick="loan(event)" value="Informatik C">lån</button>
+  </div>
+  <div class="bookdiv" id="Håndbog til dansk">
+    <img src="Basiskemic.jpg" alt="basiskemi c"><br>
+    <label for="">Håndbog til dansk</label><br>
+    <p>Forfattere: H. Mygind, O. Vesterlund Nielsen, V. Axelsen</p><br>
+    <p>Antal:</p>
+    <p id=book5number>8</p>
+    <button type="button" id="book5" onclick="loan(event)" value="Håndbog til dansk">lån</button>
+  </div>
+  <div class="bookdiv" id="Basiskemic">
+    <img src="Basiskemic.jpg" alt="basiskemi c"><br>
+    <label for="">Basiskemi C</label><br>
+    <p>Forfattere: H. Mygind, O. Vesterlund Nielsen, V. Axelsen</p><br>
+    <p>Antal:</p>
+    <p id=book6number>4</p>
+    <button type="button" id="book6" onclick="loan(event)">lån</button>
+  </div>
+  <div class="bookdiv" id="Basiskemic">
+    <img src="Basiskemic.jpg" alt="basiskemi c"><br>
+    <label for="">Basiskemi C</label><br>
+    <p>Forfattere: H. Mygind, O. Vesterlund Nielsen, V. Axelsen</p><br>
+    <p>Antal:</p>
+    <p id=book7number>2</p>
+    <button type="button" id="book7" onclick="loan(event)">lån</button>
+  </div>
+  <div class="bookdiv" id="Basiskemic">
+    <img src="Basiskemic.jpg" alt="basiskemi c"><br>
+    <label for="">Basiskemi C</label><br>
+    <p>Forfattere: H. Mygind, O. Vesterlund Nielsen, V. Axelsen</p><br>
+    <p>Antal:</p>
+    <p id=book8number>6</p>
+    <button type="button" id="book8" onclick="loan(event)">lån</button>
+  </div>
+  <div class="bookdiv" id="Basiskemic">
+    <img src="Basiskemic.jpg" alt="basiskemi c"><br>
+    <label for="">Basiskemi C</label><br>
+    <p>Forfattere: H. Mygind, O. Vesterlund Nielsen, V. Axelsen</p><br>
+    <p>Antal:</p>
+    <p id=book9number>9</p>
+    <button type="button" id="book9" onclick="loan(event)">lån</button>
+  </div>
+  <div class="bookdiv" id="Basiskemic">
+    <img src="Basiskemic.jpg" alt="basiskemi c"><br>
+    <label for="">Basiskemi C</label><br>
+    <p>Forfattere: H. Mygind, O. Vesterlund Nielsen, V. Axelsen</p><br>
+    <p>Antal:</p>
+    <p id=book10number>1</p>
+    <button type="button" id="book10" onclick="loan(event)">lån</button>
+  </div>
+</div>
+<script src="script.js" charset="utf-8"></script>
+  </body>
+</html>

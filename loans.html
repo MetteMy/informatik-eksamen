@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>next/mine lån</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body onload="showloans()">
+    <nav class="sidenav" id="sidenav">
+      <a href="#" class="closebtn" onclick="closenav()">&times</a>
+      <a href="loans.html">Mine lån</a>
+      <a href="books.html">Bøger</a>
+      <a href="#">Elektronik</a>
+      <a href="#">Mere</a>
+    </nav>
+<header>
+<img src="menu_icon.png" alt="menu" id="menuicon" onclick="opennav()">
+<img src="nextlogo.jpg" alt="next logo" id="nextlogo">
+<img src="profile_icon.png" alt="profil icon" id="profileicon">
+<p id="loginp"></p>
+</header>
+<h4>Her kan du se hvad du har lånt</h4>
+<div class="loansbody">
+  <br>
+<p id="noloans"></p>
+<ul id="loanedstuff" class="loanedstuff">
+
+</ul>
+</div>
+<script src="script.js" charset="utf-8"></script>
+  </body>
+</html>

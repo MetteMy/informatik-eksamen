@@ -1,0 +1,182 @@
+body {
+  margin: 0px;
+  font-family: verdana;
+}
+/*header*/
+header {
+  background-color: #0b0426;
+  padding: 10px 20px 120px 10px;
+  margin: 0px;
+
+}
+
+#nextlogo {
+  display: flex;
+  float: left;
+}
+#profileicon {
+  display: flex;
+  float: right;
+  margin-top: 10px;
+  height: 25px;
+  filter: invert(1);
+}
+#menuicon{
+  display: flex;
+  float: left;
+  height: 80px;
+  filter: invert(1);
+  margin-right: 20px;
+}
+#loginp {
+  display: block;
+  float: right;
+  color: white;
+  font-size: 8px;
+}
+/*navbar*/
+.sidenav{
+  height: 100%;
+  width: 0px;
+  position: fixed;
+  z-index: 1;
+  background-color: #0b0426;
+  overflow-x: hidden;
+  padding-top: 60px;
+  transition: 0.5s;
+}
+.sidenav a {
+padding: 8px 8px 8px 32px;
+ text-decoration: none;
+ font-size: 20px;
+ color: #818181;
+ display: block;
+ transition: 0.3s;
+}
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+/*loaned stuff*/
+.cart {
+  background-color: white;
+  color: black;
+}
+/*content*/
+.bookdisplay {
+  display: flex;
+  flex-wrap: wrap;
+  margin: auto;
+  background-image: url('sukkertoppen.jpg');
+  background-repeat: no-repeat;
+  background-size: 100%;
+ text-align: center;
+}
+.bookdiv img {
+  height: 150px;
+}
+.bookdiv {
+  text-align: center;
+  margin: auto;
+  width: 220px;
+  background-color: white;
+  border-radius: 20px;
+  padding: 5px 10px 20px 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.4);
+  opacity: 0.8;
+}
+.bookdiv p{
+  font-size: 12px;
+}
+.bookdiv:hover {
+  box-shadow: 1px 1px 10px #f35a38;
+}
+.bookdiv button {
+  text-align: left;
+  border-radius: 7px;
+  background-color: #f35a38;
+  color: black;
+  border: solid #f35a38 1px;
+  box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.4);
+  padding: 2px 7px;
+  margin: 10px;
+}
+/*login form*/
+.logincontent {
+  background-image: url("eleverilab.png");
+  background-repeat: no-repeat;
+  padding-bottom: 50px;
+}
+form {
+  background-color: white;
+  text-align: center;
+  margin: auto;
+  width: 200px;
+  border-radius: 20px;
+  padding: 5px 10px 20px 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.4);
+  opacity: 0.8;
+  margin-bottom: 90%;
+}
+input[type=button] {
+  border-radius: 7px;
+  background-color: #f35a38;
+  color: black;
+  border: solid #f35a38 1px;
+  box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.4);
+  padding: 2px 7px;
+  margin: 10px;
+}
+input[type=button]:hover {
+  background-color: #9e3b24;
+}
+/*loan page*/
+.loansbody {
+  margin: 0px;
+  background-size: 100%;
+}
+.loanedstuff{
+  list-style-type: none;
+  margin-left: 40px;
+  width: 400px;
+  background-color: white;
+  border-radius: 20px;
+  padding: 5px 10px 20px 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.4);
+  opacity: 0.8;
+  font-size: 12px;
+
+}
+li {
+  color: #f35a38;
+  font-size: 20px;
+}
+#noloans {
+  margin: 0px;
+  color: black;
+  text-align: center;
+}
+h4 {
+  margin: 0px;
+  text-align: center;
+  color: color;
+  padding: 60px;
+  font-size: 30px;
+}
+button {
+  border-radius: 7px;
+  background-color: #f35a38;
+  color: black;
+  border: solid #f35a38 1px;
+  box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.4);
+  padding: 2px 7px;
+  margin: 10px;
+}
+button:hover {
+  background-color: #9e3b24;
